@@ -11,13 +11,29 @@
     </style>
 </head>
 <body>
-    <div id="fotologin">
-        <img src="logohidro.png" width="320" height="205" />
-    </div>
-    <div id="login">
-        <h1><input type="text" placeholder="E-mail"></h1>
-        <input type="text" placeholder="Senha">
-        <h2><input type="button" value="Entrar" id="botao"></h2>
+    <div id="login-container">
+        <h1>Login</h1>
+        <form action="">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="digite o seu E-mail" autocomplete="off">
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite a sua senha">
+            <a href="#" id="forgot-pass"> esqueceu a senha?</a>
+            <input type="submit" value="Login">
+        </form>
+        <div id="social-container">
+            
+            <p>Ou entre pelas suas redes sociais</p>
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <div id="register">
+            <p>Ainda não tem uma conta?</p>
+            <a href="#">registrar</a>
+
+        </div>
+
+
     </div>
     
 </body>
