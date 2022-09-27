@@ -26,8 +26,9 @@ h1{
     margin-bottom: auto;
     margin-top: 50px;
     height:80vh;
-    background-color: gray;
+    background-color: white;
     border-radius: 50px;
+    opacity: 0.9;
 }
 div#welcomeConteiner{
     background-color: rgb(7, 80, 55);
@@ -37,7 +38,7 @@ div#welcomeConteiner{
     border-radius: 40px;
 }
 div#dayconteiner{
-    background-color: white;
+    background-color: rgb(12, 110, 134);
     border-radius: 30px;
     position: absolute;
     margin-top: 20px;
@@ -48,6 +49,7 @@ div#dayconteiner{
 p#txtday{
     margin-top: 25px;
     margin-left: 70px;
+    color: white;
     
 }
 img#imgday{
