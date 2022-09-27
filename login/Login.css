@@ -8,7 +8,7 @@
     border: none;
 }
 body{
-    background-image: url(comunidadefoto.jpg);
+    background-image: url(../assets/comunidadefoto.jpg);
     background-size: cover;
     background-position: -200px;
 }

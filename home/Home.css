@@ -8,7 +8,7 @@
 }
 body{
     flex: 1;
-    background-image: url(comunidadefoto.jpg);
+    background-image: url(../assets/comunidadefoto.jpg);
     background-size: cover;
     background-position: -200px;
 }
@@ -68,4 +68,7 @@ hr{
     color:rgb(0, 0, 0);
     background-color:black;
     margin-left: 62px;
+}
+button#buttonprofile{
+    position: absolute;
 }
