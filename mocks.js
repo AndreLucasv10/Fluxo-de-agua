@@ -32,3 +32,10 @@ const mocks = [
         gasto: '1L'
     }
 ];
+
+const user = [
+    {
+        id: 1,
+        name: 'Charles'
+    }
+];
