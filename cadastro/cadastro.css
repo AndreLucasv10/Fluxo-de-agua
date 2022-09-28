@@ -64,7 +64,7 @@ input{
 input{
     border-color: #08558B;
 }
-input[type="submit"]{
+input[type="button"]{
     background-color: #08558B;
     color: #fff;
     border: none;
