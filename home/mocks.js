@@ -1,3 +1,13 @@
+function toProfile(){
+
+     window.location.href = "http://127.0.0.1:5500/profile/profile.html"
+
+}
+
+
+
+
+
 const mocks = [
     {
         id: 1,

@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: black;
+    border: none;
+}
+body{
+    flex: 1;
+    background-image: url(../assets/comunidadefoto.jpg);
+    background-size: cover;
+}
+img{
+    height: 20vh;
+    width: 20vh;
+    margin: 0 auto
+}
+div#fakeconteiner{
+    background-color: rgba(185, 179, 179, 0.7);
+    width: 90vw;
+    height: 40vw;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+form{
+    top: 20px;
+    margin: 50vw auto;
+}
+input{
+    display: block;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+}
+label{
+    margin-left: 20px;
+    font-size: 25px;
+}
+form#botoesprofile{
+    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+button#cancelbutton{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+button#confirmbutton{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: gray;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+button#cancelbutton[type="button"]:hover{
+    background-color: #c23f3f;
+    transition: .5s;
+}
+button#confirmbutton[type="button"]:hover{
+    background-color: #69c23f;
+    transition: .5s;
+}
+button#voltar{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    margin-left: 50vw;
+    margin-top: 20px;
+    background-color:rgb(12, 110, 134) ;
+    cursor: pointer;
+}
+button#voltar[type="button"]:hover{
+    background-color: rgb(5, 73, 90);
+    transition: .5s;
+}

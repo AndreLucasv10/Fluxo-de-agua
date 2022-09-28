@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="fakeconteiner">
+        <img src="../assets/12.png"/>
+        <form>
+            <label for="Fulana da Silva">Nome:</label>
+            <input type="text" value="Fulana da Silva" placeholder="Nome">
+            <label for="23/05/1980">Nascimento:</label>
+            <input type="text" value="23/05/1980" placeholder="Data de Nascimento">
+            <label for="fulanadasilvav10@gmail.com">E-mail:</label>
+            <input type="text" value="fulanadasilvav10@gmail.com" placeholder="E-mail">
+            <label for="43">Idade:</label>
+            <input type="text" value="43" placeholder="Idade">
+            <label for="senha">Senha:</label>
+            <input type="text" value="********" placeholder="E-mail">
+            <label for="Avenida Algusto capitão">Logradouro:</label>
+            <input type="text" value="Avenida Algusto capitão" placeholder="Logradouro">
+        </form>
+        <form id="botoesprofile">
+            <button type="button" id="cancelbutton" onclick="cancel()">Cancelar Alterações</button>
+            <button type="button" id="confirmbutton" onclick="confirm()">Confirmar Alterações</button>
+        </form>
+    </div>
+    <button id="voltar" type="button" onclick="home()"><span class="material-icons">home</span></button>
+    <script src="script.js"></script>
+</body>
+</html>
