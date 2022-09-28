@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
+    <div id="principal-container">
+        
+        <form id="registro-container">
+            <h1>cadastre-se para acessar o sistema</h1>
+            <div class="full-box">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+            <div class="half-box spacing">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+            </div>
+            <div class="half-box">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome">
+            </div>
+            <div class="half-box spacing">
+                <label for="senha">Senha</label>
+                <input type="text" name="senha" id="senha" placeholder="Digite a sua senha">
+            </div>
+            <div class="half-box">
+                <label for="passconfirmation">Confirmação de senha</label>
+                <input type="text" name="passconfirmation" id="passconfirmation" placeholder="Confirme a sua senha">
+            </div>
+            <div class="full-box">
+                <input type="checkbox" name="regulamento" id="regulamento">
+                <label for="regulamento">Eu li e aceito os <a href="#"> termos de uso</a></label>
+            </div>
+            <div class="full-box">
+                <input type="submit" id="btn-registrar" value="Registrar">
+            </div>
+        </form>
+    </div>
+    <p class="erro-validacao"></p>
 <script src="js/cadastro.js"></script>
 </body>
 </html>
